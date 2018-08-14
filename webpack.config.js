@@ -5,6 +5,9 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js'
   },
+  scripts: {
+    start: "npm start",
+  },
   module: {
     loaders: [
       {
