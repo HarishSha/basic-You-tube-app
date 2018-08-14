@@ -7,6 +7,7 @@ module.exports = {
   },
   scripts: {
     start: "npm start",
+    "heroku-postbuild": "webpack -p"
   },
   module: {
     loaders: [
